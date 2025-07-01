@@ -1,6 +1,7 @@
 name: Release Steampipe Anywhere Components
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v*'
